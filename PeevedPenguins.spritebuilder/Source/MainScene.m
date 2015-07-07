@@ -10,10 +10,8 @@
 
 @implementation MainScene
 
-- (void)didLoadFromCCB
-{
-    [CCBReader load:@"Penguin"];
-    [CCBReader load:@"Seal"];
+-(void)play {
+    CCLOG(@"play button pressed");
 }
 
 @end
