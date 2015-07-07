@@ -10,4 +10,10 @@
 
 @implementation MainScene
 
+- (void)didLoadFromCCB
+{
+    [CCBReader load:@"Penguin"];
+    [CCBReader load:@"Seal"];
+}
+
 @end

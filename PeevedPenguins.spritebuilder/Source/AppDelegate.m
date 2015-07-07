@@ -54,10 +54,6 @@
     
     [self setupCocos2dWithOptions:cocos2dSetup];
     
-    [CCBReader configureCCFileUtils];
-    [CCBReader load:@"Penguin"];
-    [CCBReader load:@"Seal"];
-    
     return YES;
 }
 
